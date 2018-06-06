@@ -1,0 +1,36 @@
+#bannerCL {
+    background: url(https://s1.swimg.net/gsmf/680/img/flags/230x70/7.png) top right no-repeat;
+    background-color: #F0F0F0;
+}
+
+#bannerDFB {
+    background: url(https://s1.swimg.net/gsmf/680/img/flags/230x70/80.png) top right no-repeat;
+    background-color: #F0F0F0;
+}
+
+.bannerprops {
+    height: 70px;
+    margin-bottom: 10px;
+}
+
+.bannerprops h2 {
+    color: black;
+    text-transform: uppercase;
+    font-family: arial;
+    margin-top: 0;
+    padding-top: 20px;
+    padding-left: 20px;
+    display: block;
+}
+
+#content {
+    background-color: #FFF;
+}
+
+#cl th {
+    background-color: lightgray;
+    text-transform: uppercase;
+    color: #ff3301;
+    text-align: left;
+    font-family: arial;
+}
