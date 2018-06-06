@@ -1,3 +1,21 @@
+/*Es ist durchaus sinnvoll die Eigenschaften aller HTML5-Elemente für alle Browser
+  auf null zusetzen, um für jeden Browser dieselben Grundvoraussetzungen zu schaffen.
+  Für uns stellt sich jedoch die Frage, möchten wir als Anfänger ein sauberes CSS,
+  dafür aber jede Eigenschaft neu vergeben? Dies würde unser CSS nicht nur enorm
+  aufblasen, sondern wäre auch noch mit einer Menge Zeit verbunden.
+  Sicherlich hat man bei einem CSS-Reset die absolute Kontrolle und jedes Element
+  macht nur das was man ihm auch vorher gesagt hat, aber wir sind zu dem Entschluss
+  gekommen, dass in unserem Fall der Einbau eines Normalizers von Vorteil wäre, da
+  dieser nicht alle sinnvollen Voreinstellungen auf Null setzt, sondern die
+  Browser dazu bringt sich alle gleich zu verhalten.
+*/
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 body {
     background-image: url(/img/fussball-rasen.jpg);
     background-attachment: fixed;
