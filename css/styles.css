@@ -30,27 +30,38 @@ body {
     padding: 10px;
 }
 
-#header {
-    width: 100%;
-    background-image: url(/img/netz1200x460.jpg);
-    background-repeat: no-repeat;
+.header {
+	position: relative;
+}
+
+.header img {
+	display: flex;
+}
+
+#headerlogo {
+	width: 100%;
+	background-repeat: no-repeat;
     height: 350px;
 }
 
 #logotext {
-    margin-top: 0;
-    float: right;
-    padding-top: 30px;
-    padding-right: 60px;
-    font-size: 35pt;
+	position: absolute;
+	bottom: 0;
+	width: 95%;
+	height: 85%;
+	text-align: right;
+	font-size: 35pt;
     color: white;
+	font-family: sans-serif;
 }
 
 #nametext {
-    margin-top: 0;
-    float: right;
-    padding-top: 95px;
-    padding-right: 0;
+	position: absolute;
+    bottom: 0;
+	width: 97%;
+	height: 70%;
+	text-align: right;
+	font-size: 15pt;
     color: white;
 }
 
@@ -97,4 +108,25 @@ li a:hover {
 
 .active {
     background-color: #4CAF50;
+}
+
+/* Mobile */
+
+@media(max-width: 480px) {
+	#wrapper {
+    	width: 377px;
+	}
+
+	#headerlogo {
+		max-width: 100%;
+    	height: auto;
+	}
+
+	#logotext {
+		font-size: 15pt;
+	}
+
+	#nametext {
+		font-size: 8pt;
+	}
 }
