@@ -23,7 +23,7 @@ body {
 }
 
 #wrapper {
-    width: 960px;
+    width: 80%;
     margin: 0px auto;
     background-color: #FFFFFF;
     margin-top: 20px;
@@ -41,7 +41,7 @@ body {
 #headerlogo {
 	width: 100%;
 	background-repeat: no-repeat;
-    height: 350px;
+/*    height: 350px;*/
 }
 
 #logotext {
@@ -50,7 +50,7 @@ body {
 	width: 95%;
 	height: 85%;
 	text-align: right;
-	font-size: 35pt;
+	font-size: 5vw;
     color: white;
 	font-family: sans-serif;
 }
@@ -61,7 +61,7 @@ body {
 	width: 97%;
 	height: 70%;
 	text-align: right;
-	font-size: 15pt;
+	font-size: 2vw;
     color: white;
 }
 
@@ -130,3 +130,24 @@ li a:hover {
 		font-size: 8pt;
 	}
 }
+
+/*
+@media(max-width: 768px) {
+    #wrapper {
+    	width: 204px;
+	}
+
+	#headerlogo {
+		max-width: 100%;
+    	height: auto;
+	}
+
+	#logotext {
+		font-size: 23pt;
+	}
+
+	#nametext {
+		font-size: 11pt;
+	}
+}
+*/

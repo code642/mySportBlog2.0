@@ -79,6 +79,7 @@ table.matches td.aggr {
 .score {
 	background-color: #bebebe;
     font-weight: bold;
+    padding: 0 10px 0 10px;
 }
 
 table.matches .date {
@@ -105,6 +106,10 @@ table.matches .day {
     background-color: white;
 }
 
+.block {
+    margin-bottom: 20px;
+}
+
 .block h3 {
     border-bottom: 1px solid #d5d3d6;
     text-transform: uppercase;
@@ -113,3 +118,4 @@ table.matches .day {
     text-align: left;
     font-family: arial;
 }
+
