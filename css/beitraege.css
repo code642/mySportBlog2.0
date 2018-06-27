@@ -1,0 +1,23 @@
+thead {
+    background-color: firebrick
+}
+
+thead > tr > td {
+    color: white;
+    font-family: sans-serif;
+}
+
+td {
+    width: 50%;
+    padding: 0.2em;
+    font-family: sans-serif;
+}
+
+.secgrey {
+    background-color: #dadada;
+}
+
+#content {
+    border: 2px dashed black;
+    padding-left: 1em;
+}

@@ -31,52 +31,55 @@ body {
 }
 
 .header {
-	position: relative;
+    position: relative;
 }
 
 .header img {
-	display: flex;
+    display: flex;
 }
 
 #headerlogo {
-	width: 100%;
-	background-repeat: no-repeat;
-/*    height: 350px;*/
+    width: 100%;
+    background-repeat: no-repeat;
+    /*    height: 350px;*/
 }
 
 #logotext {
-	position: absolute;
-	bottom: 0;
-	width: 95%;
-	height: 85%;
-	text-align: right;
-	font-size: 5vw;
+    position: absolute;
+    bottom: 0;
+    width: 95%;
+    height: 85%;
+    text-align: right;
+    font-size: 5vw;
     color: white;
-	font-family: sans-serif;
+    font-family: sans-serif;
 }
 
 #nametext {
-	position: absolute;
+    position: absolute;
     bottom: 0;
-	width: 97%;
-	height: 70%;
-	text-align: right;
-	font-size: 2vw;
+    width: 97%;
+    height: 70%;
+    text-align: right;
+    font-size: 2vw;
     color: white;
 }
 
 #content {
-    background-color: #FE9A2E;
+    background-color: #FFF;
 }
 
 #footer {
-    background-color: dimgrey;
-    height: 30px;
+    background-color: #d5d3d6;
+    height: 3rem;
     margin-top: 10px;
-    padding: 20px;
+    padding-top: 0.5em;
+    padding-left: 0.5em;
 }
 
-ul {
+/* ---------- Menu ----------- */
+
+nav > ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -85,16 +88,16 @@ ul {
     margin-bottom: 10px;
 }
 
-li {
+nav > ul > li {
     float: left;
     border-right: 1px solid #bbb;
 }
 
-li:last-child {
+nav > ul > li:last-child {
     border-right: none;
 }
 
-li a {
+nav > ul > li > a {
     display: block;
     color: white;
     text-align: center;
@@ -102,8 +105,23 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+nav > ul > li > a:hover {
     background-color: #111;
+}
+
+nav > ul > li > ul {
+    display: none;
+}
+
+nav > ul > li:hover > ul {
+    display: block;
+    position: absolute;
+}
+
+nav > ul > li > ul > li {
+    position: relative;
+    list-style: none;
+    background-color: #333
 }
 
 .active {
@@ -113,22 +131,22 @@ li a:hover {
 /* Mobile */
 
 @media(max-width: 480px) {
-	#wrapper {
-    	width: 377px;
-	}
+    #wrapper {
+        width: 377px;
+    }
 
-	#headerlogo {
-		max-width: 100%;
-    	height: auto;
-	}
+    #headerlogo {
+        max-width: 100%;
+        height: auto;
+    }
 
-	#logotext {
-		font-size: 15pt;
-	}
+    #logotext {
+        font-size: 15pt;
+    }
 
-	#nametext {
-		font-size: 8pt;
-	}
+    #nametext {
+        font-size: 8pt;
+    }
 }
 
 /*
