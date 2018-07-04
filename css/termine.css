@@ -58,6 +58,46 @@
     background-image: url(http://www.nationalflaggen.de/zeige-flagge-184003.html);
 }
 
+.flag_muenchen {
+    background-image: url(/img/clubs/bayern.png);
+    background-size: 10%;
+}
+
+.flag_bremen {
+    background-image: url(/img/clubs/bremen.png);
+    background-size: 13%;
+}
+
+.flag_frankfurt {
+    background-image: url(/img/clubs/frankfurt.png);
+    background-size: 10%;
+}
+
+.flag_leverkusen {
+    background-image: url(/img/clubs/leverkusen.png);
+    background-size: 11%;
+}
+
+.flag_mainz {
+    background-image: url(/img/clubs/mainz.png);
+    background-size: 11%;
+}
+
+.flag_paderborn {
+    background-image: url(/img/clubs/paderborn.png);
+    background-size: 13%;
+}
+
+.flag_schalke {
+    background-image: url(/img/clubs/schalke.png);
+    background-size: 12%;
+}
+
+.flag_wolfsburg {
+    background-image: url(/img/clubs/wolfsburg.png);
+    background-size: 18%;
+}
+
 table.matches tr.even {
     background-color: #dadada;
     font-family: sans-serif;

@@ -17,7 +17,7 @@ td {
     background-color: #dadada;
 }
 
-#content {
+article {
     border: 2px dashed black;
     padding-left: 1em;
 }

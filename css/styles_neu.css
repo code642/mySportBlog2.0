@@ -20,9 +20,6 @@ body {
     background-image: url(/img/fussball-rasen.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
-}
-
-#wrapper {
     width: 80%;
     margin: 0px auto;
     background-color: #FFFFFF;
@@ -30,18 +27,14 @@ body {
     padding: 10px;
 }
 
-.header {
+header {
     position: relative;
 }
 
-.header img {
+header img {
     display: flex;
-}
-
-#headerlogo {
     width: 100%;
     background-repeat: no-repeat;
-    /*    height: 350px;*/
 }
 
 #logotext {
