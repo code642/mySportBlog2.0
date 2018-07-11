@@ -20,15 +20,15 @@ body {
     background-image: url(/img/fussball-rasen.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
-    width: 80%;
-    margin: 0px auto;
-    background-color: #FFFFFF;
-    margin-top: 20px;
-    padding: 10px;
 }
 
 header {
     position: relative;
+    width: 80%;
+    margin: 0% auto;
+    margin-top: 30px;
+    background-color: #ffffff;
+    padding: 10px;
 }
 
 header img {
@@ -37,7 +37,7 @@ header img {
     background-repeat: no-repeat;
 }
 
-#logotext {
+header h1 {
     position: absolute;
     bottom: 0;
     width: 95%;
@@ -48,7 +48,7 @@ header img {
     font-family: sans-serif;
 }
 
-#nametext {
+header h3 {
     position: absolute;
     bottom: 0;
     width: 97%;
@@ -58,16 +58,24 @@ header img {
     color: white;
 }
 
-#content {
-    background-color: #FFF;
+main {
+    background-color: #f4f4f4;
+    width: 80%;
+    margin: 0% auto;
+    padding: 10px;
 }
 
-#footer {
+.articles-main img {
+    width: 70%;
+}
+
+footer {
     background-color: #d5d3d6;
-    height: 3rem;
-    margin-top: 10px;
-    padding-top: 0.5em;
-    padding-left: 0.5em;
+    width: 80%;
+    margin: 0% auto;
+    height: 8rem;
+    padding-top: 1em;
+    padding-left: 1em;
 }
 
 /* ---------- Menu ----------- */
@@ -78,7 +86,6 @@ nav > ul {
     padding: 0;
     overflow: hidden;
     background-color: #333;
-    margin-bottom: 10px;
 }
 
 nav > ul > li {
@@ -121,11 +128,6 @@ nav > ul > li > ul > li {
     background-color: #4CAF50;
 }
 
-.main {
-    width: 96%;
-    margin: 2% auto;
-}
-
 .articles-main {
     padding-bottom: 10px;
 }
@@ -133,9 +135,11 @@ nav > ul > li > ul > li {
 .articles-secondary {
     background: #fff;
     border: solid 1px #e4e8ea;
+    margin-bottom: 1%;
     padding: 2% 2% 6%;
     position: relative;
     overflow: hidden;
+    font-family: sans-serif;
 }
 
 .articles-secondary img {
@@ -164,24 +168,3 @@ nav > ul > li > ul > li {
         font-size: 8pt;
     }
 }
-
-/*
-@media(max-width: 768px) {
-    #wrapper {
-    	width: 204px;
-	}
-
-	#headerlogo {
-		max-width: 100%;
-    	height: auto;
-	}
-
-	#logotext {
-		font-size: 23pt;
-	}
-
-	#nametext {
-		font-size: 11pt;
-	}
-}
-*/
