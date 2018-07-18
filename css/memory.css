@@ -1,0 +1,20 @@
+.grid {
+    width: 590px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 140px 140px 140px;
+    grid-template-rows: repeat(4, 140px);
+    grid-auto-flow: column;
+}
+
+.box {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+}
+
+section {
+    margin: auto;
+}
